@@ -1,0 +1,1 @@
+`node flex-query-format.js src.sql > out.sql`
