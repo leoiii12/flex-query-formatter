@@ -151,4 +151,4 @@ var e=require("./toString"),r=/[\\^$.*+?()[\]{}|]/g,t=RegExp(r.source);function 
 },{"./languages/Db2Formatter":"xcMn","./languages/N1qlFormatter":"LBAp","./languages/PlSqlFormatter":"g4re","./languages/StandardSqlFormatter":"nUrS"}],"mpVp":[function(require,module,exports) {
 var e=require("../sql-formatter");onClickFormat=function(){var t=document.getElementById("src").value;document.getElementById("out").value=e.format(t)};
 },{"../sql-formatter":"VlnF"}]},{},["mpVp"], null)
-//# sourceMappingURL=flex-query-formatter/script.c797ebc2.js.map
+//# sourceMappingURL=script.c797ebc2.js.map

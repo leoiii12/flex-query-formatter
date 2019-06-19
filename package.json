@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build www-src/index.html --public-url flex-query-formatter --out-dir ./docs"
+    "build": "parcel build www-src/index.html --public-url . --out-dir ./docs"
   },
   "author": "",
   "license": "MIT"
