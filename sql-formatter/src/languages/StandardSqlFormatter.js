@@ -97,7 +97,7 @@ export default class StandardSqlFormatter {
                 openParens: ["(", "CASE", "\{{2}?"],
                 closeParens: [")", "END", "\}{2}?"],
                 indexedPlaceholderTypes: ["@"],
-                namedPlaceholderTypes: ["?"],
+                namedPlaceholderTypes: [":", "?"],
                 lineCommentTypes: ["#", "--"]
             });
         }
