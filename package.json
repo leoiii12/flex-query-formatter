@@ -1,12 +1,15 @@
 {
   "name": "flex-query-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@leoiii12/sql-formatter": "^2.4.0",
     "@types/node": "^12.0.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build www-src/index.html --public-url . --out-dir ./docs"
